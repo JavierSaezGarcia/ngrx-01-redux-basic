@@ -5,7 +5,6 @@ import { cuboAction, decrementadorAction,
             incrementadorAction, 
             multiplicarAction, 
             resetAction} from "./contador/contador.actions";
-
 import { contadorReducer } from './contador/contador.reducer';
 import { configureStore } from "@reduxjs/toolkit";
 
